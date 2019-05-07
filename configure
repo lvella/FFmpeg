@@ -1850,8 +1850,9 @@ HWACCEL_LIBRARY_LIST="
     libmfx
     mmal
     omx
-    rpi
     opencl
+    rpi4_8
+    rpi4_10
 "
 
 DOCUMENT_LIST="
@@ -1913,6 +1914,7 @@ SUBSYSTEM_LIST="
     pixelutils
     network
     rdft
+    rpi
 "
 
 # COMPONENT_LIST needs to come last to ensure correct dependency checking
@@ -2388,6 +2390,7 @@ CONFIG_EXTRA="
     rangecoder
     riffdec
     riffenc
+    rpi
     rtpdec
     rtpenc_chain
     rv34dsp
